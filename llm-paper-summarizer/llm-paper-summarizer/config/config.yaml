@@ -1,0 +1,6 @@
+llm_model: "facebook/bart-large-cnn"
+embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+chunk_size: 512
+summarization_prompt: "Summarize this scientific paper in 200-300 words: {text}"
+extraction_prompt: "Extract key findings as a bulleted list, including quantitative results: {text}"
+qa_prompt: "Based on this paper, answer: {question}\nContext: {context}"

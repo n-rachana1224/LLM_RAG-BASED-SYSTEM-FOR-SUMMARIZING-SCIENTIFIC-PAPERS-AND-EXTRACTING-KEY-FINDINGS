@@ -1,0 +1,14 @@
+streamlit 
+transformers 
+pymupdf 
+gtts 
+sentence-transformers 
+faiss-cpu 
+reportlab 
+nltk 
+rouge-score 
+pyyaml 
+pytest 
+bitsandbytes 
+torch
+accelerate
